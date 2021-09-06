@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "515515899611",
+    "project_id": "chatapp-476e3",
+    "storage_bucket": "chatapp-476e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515515899611:android:dcebe5fb665a01810e36fe",
+        "android_client_info": {
+          "package_name": "com.github.bleszerd.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515515899611-109ojbm36kjqlas736q0g1p1jgl4aabc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBj1WMgRwN97ANkBbA2p51rF5U5I_Ex1tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515515899611-109ojbm36kjqlas736q0g1p1jgl4aabc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
