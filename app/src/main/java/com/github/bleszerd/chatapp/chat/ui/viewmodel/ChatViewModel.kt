@@ -17,7 +17,7 @@ class ChatViewModel : ViewModel() {
     fun sendMessage(text: String) {
         val message = Message(text, 0)
 
-        messages.value?.add(message)
+        messages.value?.add(0, message)
         newMessage.postValue(message)
     }
 

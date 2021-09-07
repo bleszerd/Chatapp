@@ -64,10 +64,6 @@ class ChatActivity : AppCompatActivity() {
             chatAdapter.notifyItemInserted(0)
             chatMessageRecycler.scrollToPosition(chatViewModel.messages.value!!.indices.first)
         })
-
-        chatViewModel.fetchedMessages.observe(this, {
-            println(it.size)
-        })
     }
 
     private fun setupMessageRecycler() {
