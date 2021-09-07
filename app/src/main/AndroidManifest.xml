@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chatapp">
         <activity
-            android:name=".chat.view.ui.ChatActivity"
+            android:name=".chat.ui.view.ChatActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

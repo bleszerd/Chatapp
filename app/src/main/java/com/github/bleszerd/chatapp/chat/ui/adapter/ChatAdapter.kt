@@ -1,4 +1,4 @@
-package com.github.bleszerd.chatapp.chat.view.adapter
+package com.github.bleszerd.chatapp.chat.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +11,7 @@ import com.github.bleszerd.chatapp.commom.model.Message
 //1 = Sender
 //2 = Recipient
 
-class ChatAdapter(private var messages: List<Message>) : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>() {
+class ChatAdapter(private var messages: MutableList<Message>) : RecyclerView.Adapter<ChatAdapter.ChatViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChatViewHolder {
         return when(viewType){
             0 -> ChatSenderViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.chat_message_sender_item, parent, false))
